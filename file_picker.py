@@ -1,3 +1,4 @@
+#Creating a file picker file that will eventually be used on the main code to attach file when sending email
 from tkinter import Tk, filedialog
 
 def browse_file():
@@ -5,7 +6,7 @@ def browse_file():
     root = Tk()
     root.withdraw()
 
-    # Open file picker dialog
+    # Open file picker dialog file types will be customize later
     file_path = filedialog.askopenfilename(
         title="Select a File",
         filetypes=[
@@ -13,7 +14,8 @@ def browse_file():
             ("Text Files", "*.txt"),
             ("Python Files", "*.py"),
             ("JSON Files", "*.json"),
-            ("HTML Files", "*.html")
+            ("HTML Files", "*.html"),  
+            ("Image Files", "*.jpg")  
         ]
     )
 
