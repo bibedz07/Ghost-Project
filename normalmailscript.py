@@ -2,6 +2,12 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+from file_picker import browse_file
+
+#attempt to insert browsefile
+
+browse_file()
+
 # Email account credentials
 sender_email = input("Email sending email account: ")
 display_email = input("Enter email that will show it From: ")
