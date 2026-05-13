@@ -12,11 +12,16 @@ def browse_file():
         filetypes=[
             ("All Files", "*.*"),
             ("Text Files", "*.txt"),
-            ("Python Files", "*.py"),
-            ("JSON Files", "*.json"),
-            ("HTML Files", "*.html"),  
-            ("Image Files", "*.jpg")  
-        ]
+            ("Word Docs", "*.docx"),
+            ("PDF Files", "*.pdf"),
+            ("Excel Sheets", "*.xlsx"),
+            ("CSV Files", "*.csv"),
+            ("Image Files", "*.jpg"),
+            ("PNG Images", "*.png"),
+            ("GIF Images", "*.gif"),
+            ("Audio Files", "*.mp3"),
+            ("Video Files", "*.mp4"),
+            ("Zip Archives", "*.zip")        ]
     )
 
     # Print selected file path in terminal
