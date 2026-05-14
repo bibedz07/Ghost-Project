@@ -1,5 +1,5 @@
-#Creating a file picker file that will eventually be used on the main code to attach file when sending email
-#Working on mobile environment all will be integrated later time.
+#Attempt to create a suitable file picker on mobile environment.
+
 import os
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
