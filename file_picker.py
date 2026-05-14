@@ -28,9 +28,7 @@ def browse_file():
     if file_path:
         print("Selected File:")
         print(file_path)
+        return file_path
     else:
         print("No file selected.")
-
-# Run function
-if __name__ == "__main__":
-    browse_file()
+        return None
