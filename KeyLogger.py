@@ -43,7 +43,7 @@ def on_press(key):
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(log_entry)
 
-def on_repr := repr(key) + "\n")
+#def on_repr := repr(key) + "\n")
 
 def on_release(key):
     """Optional: Stop listener on ESC (useful during testing)."""
