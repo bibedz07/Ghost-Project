@@ -7,7 +7,6 @@ from email.utils import formataddr
 
 from file_picker import browse_file #module for file_picker
 
-
 """
 # Email account credentials
 sender_email = input("Email sending email account: ")
